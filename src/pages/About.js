@@ -19,7 +19,14 @@ export default function About() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum, ex et dictum aliquam, risus leo sodales lorem, et feugiat mi ligula nec sapien. Vivamus lobortis, velit vel porttitor semper</p>
                 </div>
             </div>
-            
+            <div className="text">
+                <h2>Lorem Impsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam a ab aliquid quidem facere quaerat iusto laborum eum, maxime, fugit sunt totam, reiciendis non. Repudiandae, labore. Ipsam, sint a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam a ab aliquid quidem facere quaerat iusto laborum eum, maxime, fugit sunt totam, reiciendis non. Repudiandae, labore. Ipsam, sint a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam a ab aliquid quidem facere quaerat iusto laborum eum, maxime, fugit sunt totam, reiciendis non. Repudiandae, labore. Ipsam, sint a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam a ab aliquid quidem facere quaerat iusto laborum eum, maxime, fugit sunt totam, reiciendis non. Repudiandae, labore. Ipsam, sint a.</p>
+                <div className="buttons">
+                    <button>Learn more</button>
+                    <button>Join now</button>
+                </div>
+            </div>
         </div>
     )
 }

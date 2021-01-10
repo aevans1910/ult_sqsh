@@ -9,6 +9,7 @@ import BadUrl from './pages/BadUrl';
 import ContactPage from './pages/ContactPage';
 import News from './pages/News';
 import About from './pages/About';
+import Join from './pages/Join';
 
 
 // Components
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/contact-us" component={ContactPage} />
           <Route exact path="/news" component={News} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/join" component={Join} />
           <Route component={BadUrl} />
         </Switch>
         <Footer />
