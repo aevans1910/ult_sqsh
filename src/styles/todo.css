@@ -1,0 +1,90 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form > label {
+  font-family: var(--font-hero-bold);
+  color: var(--color-royal-blue);
+  font-size: 1.5em;
+}
+
+form > .mid input {
+  height: 34px;
+  border-radius: 0px;
+  margin: 10px;
+  border-width: 1px;
+  width: 180px;
+  font-size: 1em;
+}
+
+form > .mid > button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--color-dark-blue);
+  border: none;
+  width: 50px;
+  font-family: var(--font-hero);
+  font-size: .93em;
+  color: var(--color-white);
+}
+
+form > button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--color-royal-blue);
+  border: none;
+  width: 160px;
+  font-family: var(--font-hero);
+  font-size: .93em;
+  color: var(--color-white);
+}
+
+.todo__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todo__list > :first-child {
+  -webkit-transform: translateY(13px);
+          transform: translateY(13px);
+}
+
+.todo__list > span > input {
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+}
+
+.todo__list > span > button {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--color-red-orange);
+  border: none;
+  width: 70px;
+  font-family: var(--font-hero);
+  font-size: .93em;
+  color: var(--color-white);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=todo.css.map */

@@ -1,5 +1,7 @@
 import React from "react"
 
+import ToDo from "../components/ToDo.js"
+
 export default function Join() {
     return (
         <div className="container">
@@ -19,7 +21,7 @@ export default function Join() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum, ex et dictum aliquam, risus leo sodales lorem, et feugiat mi ligula nec sapien. Vivamus lobortis, velit vel porttitor semper</p>
                 </div>
             </div>
-            
+            <ToDo />
             
         </div>
     )
