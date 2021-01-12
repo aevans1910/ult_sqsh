@@ -12,7 +12,7 @@ export default function About() {
                 <img alt="hero" src="images/hero.jpg" />
 
             </div>
-            <div className="author">
+            <div className="section">
                 <img src="images/instructor.jpg" alt="Instructor"/>
                 <div className="text">
                     <h2>Instructor</h2>

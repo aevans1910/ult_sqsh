@@ -1,7 +1,5 @@
 import React from "react"
 
-import ToDo from "../components/ToDo.js"
-
 export default function Join() {
     return (
         <div className="container">
@@ -14,14 +12,39 @@ export default function Join() {
                 <img alt="hero" src="images/hero.jpg" />
 
             </div>
-            <div className="author">
-                <img src="images/instructor.jpg" alt="Instructor"/>
+            <div className="section">
+                <img src="images/process.jpg" alt="Process"/>
                 <div className="text">
-                    <h2>Instructor</h2>
+                    <h2>How to Join</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum, ex et dictum aliquam, risus leo sodales lorem, et feugiat mi ligula nec sapien. Vivamus lobortis, velit vel porttitor semper</p>
                 </div>
             </div>
-            <ToDo />
+
+            <div className="section2">
+                <div className="text">
+                    <h2>Colleges</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum, ex et dictum aliquam, risus leo sodales lorem, et feugiat mi ligula nec sapien. Vivamus lobortis, velit vel porttitor semper</p>
+                </div>
+                <img src="images/college.jpg" alt="College"/>
+            </div>
+
+            <div className="text">
+                <h2>Process</h2>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ol>
+                <div className="buttons">
+                    <button>Join now</button>
+                </div>
+            </div>
+
+            <div className="video">
+                <h1>Example Videos</h1>
+                <iframe width="600" height="380" src="https://www.youtube.com/embed/xyLYd4vYEgE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
         </div>
     )
