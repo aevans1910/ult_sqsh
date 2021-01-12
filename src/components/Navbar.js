@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav>
             <div className="logo">
                 <Link to="/">
-                <img src="images/LogoColor.svg" alt="logo"></img>
+                <img src="images/logo.png" alt="logo"></img>
                 </Link>
             </div>
             <ul className="nav_buttons">
