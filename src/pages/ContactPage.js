@@ -66,37 +66,25 @@ export default class ContactPage extends Component {
 
 
     render() {
-        const { name, message, email, company, phone, buttonText, buttonClass } = this.state
+        const { name, message, email, school, phone, buttonText, buttonClass } = this.state
         return (
             <div className="container">
                 <div className="contact-us">
                     <h2>Contact Us</h2>
-                    <div className="container">
-                        <div className="contactForm">
-                            <div className="same-line">
-                                <input type="text" value={name} onChange={(e) => this.setState({ name: e.target.value })} placeholder="Name" />
-                                <input type="text" value={email} onChange={(e) => this.setState({ email: e.target.value })} placeholder="Email" />
-                            </div>
-                            {/* <input type="text" value={Email} onChange={(e) => this.setState({ Email: e.target.value })} placeholder="Your Email address" /> */}
-                            <div className="same-line">
-                                <input type="text" value={company} onChange={(e) => this.setState({ company: e.target.value })} placeholder="Company" />
-                                <input type="text" value={phone} onChange={(e) => this.setState({ phone: e.target.value })} placeholder="Phone" />
-                            </div>
-                            <div className="message">
-                                <textarea type="text" value={message} onChange={(e) => this.setState({ message: e.target.value })} placeholder="Your Message" />
-                            </div>
-                            <button type="submit" className={buttonClass} onClick={this.handleSubmit.bind(this)}>{buttonText}</button>
+                    <div className="contactForm">
+                        <div className="same-line">
+                            <input type="text" value={name} onChange={(e) => this.setState({ name: e.target.value })} placeholder="Name" />
+                            <input type="text" value={email} onChange={(e) => this.setState({ email: e.target.value })} placeholder="Email" />
                         </div>
-                        <div className="address">
-                            <div className="info">
-                                <p>Contact us here</p>
-                                <p>
-                                    XXX XXXXXX XXXX <br />
-                                    San Francisco, CA XXXXX <br />
-                                    Phone: XXX-XXX-XXXX <br />
-                                </p>
-                            </div>
+                        {/* <input type="text" value={Email} onChange={(e) => this.setState({ Email: e.target.value })} placeholder="Your Email address" /> */}
+                        <div className="same-line">
+                            <input type="text" value={school} onChange={(e) => this.setState({ school: e.target.value })} placeholder="School" />
+                            <input type="text" value={phone} onChange={(e) => this.setState({ phone: e.target.value })} placeholder="Phone" />
                         </div>
+                        <div className="message">
+                            <textarea type="text" value={message} onChange={(e) => this.setState({ message: e.target.value })} placeholder="Your Message" />
+                        </div>
+                        <button type="submit" className={buttonClass} onClick={this.handleSubmit.bind(this)}>{buttonText}</button>
                     </div>
                 </div>
             </div>
