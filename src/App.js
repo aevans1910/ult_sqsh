@@ -10,6 +10,7 @@ import ContactPage from './pages/ContactPage';
 import News from './pages/News';
 import About from './pages/About';
 import Join from './pages/Join';
+import Tasks from './pages/Tasks';
 
 
 // Components
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/news" component={News} />
           <Route exact path="/about" component={About} />
           <Route exact path="/join" component={Join} />
+          <Route exact path="/tasks" component={Tasks} />
           <Route component={BadUrl} />
         </Switch>
         <Footer />

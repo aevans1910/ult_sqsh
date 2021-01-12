@@ -2,7 +2,7 @@ import React from "react"
 
 import ToDo from "../components/ToDo.js"
 
-export default function Join() {
+export default function Tasks() {
     return (
         <div className="container">
             <div className="hero">

@@ -7,7 +7,7 @@ import '../styles/navbar.css'
 
 
 
-const navButtons = ["About", "News", "Join", "Sign In"]
+const navButtons = ["About", "News", "Join", "Tasks"]
 
 
 export default function Navbar() {
