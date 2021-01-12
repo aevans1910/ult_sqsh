@@ -8,15 +8,6 @@ ___
 ___
 
 
-### Table of Contents
-
-* [Rationale](#Rationale)
-* [Benefits](#Benefits)
-* [Getting Started](#Getting_Started)
-* [Useful Links](#Useful_Links)
-* [Developers](#Developers)
-
-
 #### Description
 
 Users can look at information about the program and the instructor, and then contact the instructor if they wish to do so. They can also make themselves a task list of all the tasks they must complete to join.
